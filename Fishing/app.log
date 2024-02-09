@@ -1,0 +1,43 @@
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 251-487-108
+INFO:werkzeug: * Detected change in 'c:\\Users\\Bacche\\Documents\\Fishing\\app.py', reloading
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 251-487-108
+INFO:werkzeug:127.0.0.1 - - [09/Feb/2024 13:08:29] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Feb/2024 13:08:29] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Feb/2024 13:08:35] "POST /login/instagram HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Feb/2024 13:08:43] "[32mPOST /login/instagram HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [09/Feb/2024 13:09:18] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Feb/2024 13:09:18] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\Bacche\\Documents\\Fishing\\app.py', reloading
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 251-487-108
+INFO:werkzeug: * Detected change in 'c:\\Users\\Bacche\\Documents\\Fishing\\app.py', reloading
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 251-487-108
+INFO:werkzeug:127.0.0.1 - - [09/Feb/2024 13:11:03] "POST /login/instagram HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Feb/2024 13:11:10] "[32mPOST /login/instagram HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [09/Feb/2024 13:13:21] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Feb/2024 13:13:21] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Feb/2024 13:13:25] "POST /login/instagram HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Feb/2024 13:13:33] "[32mPOST /login/instagram HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [09/Feb/2024 13:13:37] "GET /login/email HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Feb/2024 13:13:37] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Feb/2024 13:13:39] "GET /login/email HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Feb/2024 13:13:39] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Feb/2024 13:14:52] "GET /login/email HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Feb/2024 13:14:53] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Feb/2024 13:14:55] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Feb/2024 13:14:55] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Feb/2024 13:14:55] "GET /login/email HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Feb/2024 13:14:55] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Feb/2024 13:15:08] "[32mPOST /login/email HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [09/Feb/2024 13:15:10] "GET /login/email HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Feb/2024 13:16:04] "GET /login/email HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Feb/2024 13:16:04] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Feb/2024 13:16:17] "POST /login/email HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Feb/2024 13:16:18] "GET /login/email HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Feb/2024 13:17:25] "GET /login/email HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Feb/2024 13:17:26] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Feb/2024 13:17:34] "POST /login/email HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Feb/2024 13:17:36] "GET /login/email HTTP/1.1" 200 -

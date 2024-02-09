@@ -1,0 +1,63 @@
+<!-- templates/email_login.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Email Login</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+
+<div class="container">
+  <h2>Login with Email</h2>
+  <form action="/login/email" method="post" class="login-form" onsubmit="return validateEmail()">
+    <div class="input-group">
+      <input type="email" id="email" name="email" placeholder="Email" required>
+    </div>
+    <div class="input-group">
+      <input type="password" name="password" placeholder="Password" required>
+    </div>
+    <div class="input-group">
+      <button type="submit">Login</button>
+    </div>
+  </form>
+  <div class="switch-login">
+    <p>Want to login with <a href="/">Instagram ID</a>?</p>
+  </div>
+</div>
+
+<div id="passwordNotification" class="popup" style="display: none;">
+  <p>Password must be at least 6 characters long and contain a combination of numbers, letters, and special characters (!$@%).</p>
+  <button onclick="closePopup('passwordNotification')">Close</button>
+</div>
+
+<div id="emailNotification" class="popup" style="display: none;">
+  <p>Email must end with '.com'.</p>
+  <button onclick="closePopup('emailNotification')">Close</button>
+</div>
+
+<script>
+function validateEmail() {
+  var emailInput = document.getElementById("email");
+  var email = emailInput.value.trim();
+  if (!email.endsWith("@gmail.com")) {
+    document.getElementById("emailNotification").style.display = "block";
+    return false;
+  }
+  return true;
+}
+
+function closePopup(notificationId) {
+  document.getElementById(notificationId).style.display = "none";
+}
+</script>
+
+{% if password_error %}
+<script>
+  document.getElementById("passwordNotification").style.display = "block";
+</script>
+{% endif %}
+
+</body>
+</html>
